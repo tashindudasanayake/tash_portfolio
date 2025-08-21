@@ -38,11 +38,11 @@ const Hero = () => {
           
           <div className='flex flex-col sm:flex-row gap-4'>
             <button className='bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-8 py-3 rounded-full font-medium transform hover:scale-105 transition-all duration-300'>
-              Contact Me
+              <a href= "#contact"  >Contact Me</a>
             </button>
             
             <button className='border-2 border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition-all duration-300'>
-              View Projects
+              <a href= "#project"  >View Projects</a>
             </button>
           </div>
         </div>
